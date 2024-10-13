@@ -193,11 +193,11 @@
                     resultDiv.innerHTML = `
                         <p class="success">Translation completed successfully!</p>
                         <audio controls>
-                            <source src="/audio/${data.filename}" type="audio/wav">
+                            <source src="https://speech-nzfk.onrender.com/audio/${data.filename}" type="audio/wav">
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <a href="/audio/${data.filename}" download class="download-btn">Download Audio</a>
+                        <a href="https://speech-nzfk.onrender.com/audio/${data.filename}" download class="download-btn">Download Audio</a>
                     `;
                 } else {
                     resultDiv.innerHTML = `<p class="error">Error: ${data.error}</p>`;
